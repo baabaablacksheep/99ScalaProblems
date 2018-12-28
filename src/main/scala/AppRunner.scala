@@ -46,6 +46,10 @@ object AppRunner extends App{
 //  P14.getResult(myCharList)
 //  print("P15 Result =>    ")
 //  P15.getResult(3,myCharList)
-  print("P16 Result =>    ")
-  P16.getResult(4,myCharList)
+//  print("P16 Result =>    ")
+//  P16.getResult(4,myCharList)
+//  print("P17 Result =>    ")
+//  P17.getResult(4,myCharList)
+  print("P18 Result =>    ")
+  P18.getResult(3,7,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
 }
