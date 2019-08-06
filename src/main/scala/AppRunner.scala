@@ -3,6 +3,7 @@ object AppRunner extends App{
   //For The List Tutorial Part
   val myIntList: List[Int] = List(1,1,2,2,2,3,4,2,3,4,8,9,9,9,10)
   val myCharList: List[Char] = List('c','d','d','d','s','a','a','c','c','c','c')
+  val myCharList2: List[Char] = List('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k')
 
   //palindromeList
   val palList: List[Int] = List(1, 2, 3, 2, 1)
@@ -50,6 +51,8 @@ object AppRunner extends App{
 //  P16.getResult(4,myCharList)
 //  print("P17 Result =>    ")
 //  P17.getResult(4,myCharList)
-  print("P18 Result =>    ")
-  P18.getResult(3,7,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+//  print("P18 Result =>    ")
+//  P18.getResult(3,7,List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
+  print("P19 Result =>    ")
+  P19.getResult(5,myCharList2)
 }
